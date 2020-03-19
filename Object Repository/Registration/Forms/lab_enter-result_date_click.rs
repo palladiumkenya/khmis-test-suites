@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lab_enter-result_date_click</name>
+   <tag></tag>
+   <elementGuidId>111cbe27-b0a3-45df-b2a7-045680e58504</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div/div/div/div/div[2]/div/div[3]/div/div/div/form/div/div/div[2]/div/div/div/div/div[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div/div/div/div/div[2]/div/div[3]/div/div/div/form/div/div/div[2]/div/div/div/div/div[1]/span</value>
+   </webElementProperties>
+</WebElementEntity>

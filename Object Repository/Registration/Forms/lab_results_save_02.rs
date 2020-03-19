@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lab_results_save_02</name>
+   <tag></tag>
+   <elementGuidId>6abe47e2-f729-4bce-8ae0-b807880da5b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;program-tabs&quot;]/div[3]/div/div/div/form/div/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;program-tabs&quot;]/div[3]/div/div/div/form/div/div/div[3]/button</value>
+   </webElementProperties>
+</WebElementEntity>

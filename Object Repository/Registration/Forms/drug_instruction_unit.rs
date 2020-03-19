@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drug_instruction_unit</name>
+   <tag></tag>
+   <elementGuidId>e98e3443-aaff-4aa8-9a19-0072e37e2623</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//form[@id='new-order']/p[3]/span/select-concept-from-list/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//form[@id='new-order']/p[3]/span/select-concept-from-list/input</value>
+   </webElementProperties>
+</WebElementEntity>
