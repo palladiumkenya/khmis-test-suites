@@ -225,3 +225,27 @@ WebUI.setText(findTestObject('Page_KenyaEMR/input_Postal Address_nextOfKinAddres
 
 WebUI.click(findTestObject('Page_KenyaEMR/button_Create Patient'))
 
+WebUI.acceptAlert()
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/div_Depression Screening PHQ-9'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/textarea_Others (Specify)_w36'), 'Doing Ok')
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input__w40'), 'Migori HC')
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input__w42'), 'Emma Milka')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w44-display'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w46'), 'Joyce Odhiambo')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w48-display'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/input_Others (Specify)_w38'))
+

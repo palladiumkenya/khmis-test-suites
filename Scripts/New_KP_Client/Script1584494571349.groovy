@@ -38,11 +38,11 @@ WebUI.click(findTestObject('Page_KenyaEMR/button_Register new Patient'))
 
 WebUI.click(findTestObject('Buttons/surName'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Buttons/surName'), 'Madiba')
+WebUI.setText(findTestObject('Buttons/surName'), 'Oscar')
 
 WebUI.click(findTestObject('Buttons/firstName'))
 
-WebUI.setText(findTestObject('Buttons/firstName'), 'Onyancha')
+WebUI.setText(findTestObject('Buttons/firstName'), 'Otieno')
 
 WebUI.click(findTestObject('Buttons/gender/femal'))
 
@@ -156,7 +156,7 @@ WebUI.click(findTestObject('Page_KenyaEMR/button_Enroll'))
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Key Population Type_w8'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuiop1234567890asdfghjkl555')
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuiop1234567890asdfghjkl116')
 
 WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Alias_w13'), 'Lucky')
 
@@ -197,11 +197,9 @@ WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Ever experienc
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Have you ever been tested for HIV_w22'))
 
-WebUI.click(findTestObject('Page_KenyaEMR/input_The last time you received HIV testin_ae93cb'))
+WebUI.click(findTestObject('Registration/KP_Forms/kp_enroll_type_of_test'))
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes I tested positive_w26'))
-
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_The last time you received HIV testin_ae93cb'))
+WebUI.click(findTestObject('Page_KenyaEMR/input_Yes I tested positive_w26'))
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Are you willing to be tested for HIV_w28'))
 
@@ -215,43 +213,45 @@ WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Buddy Mobile
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c'))
 
-WebUI.click(findTestObject('Page_KenyaEMR/button_Check in for visit'))
+WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_KenyaEMR/button_Submit_1'))
+WebUI.click(findTestObject('Registration/Forms/CheckinButton'))
 
-WebUI.click(findTestObject('Page_KenyaEMR/div_Triage'))
+WebUI.click(findTestObject('Registration/Forms/SubmitCheckInButton'))
 
-WebUI.setText(findTestObject('Page_KenyaEMR/textarea_Reason for visit_w8'), 'New KP')
+WebUI.click(findTestObject('Registration/Forms/Trige_Button'))
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_C_w10'), '33')
+WebUI.click(findTestObject('Registration/Forms/TriageDate'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Which year did you start sex work_w12'), '14')
+WebUI.click(findTestObject('Registration/Forms/Reason_Visit'))
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_mmHg_w14'), '170')
+WebUI.setText(findTestObject('Registration/Forms/Reason_Visit'), 'New KP Client')
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_mmHg_w16'), '60')
+WebUI.setText(findTestObject('Registration/Forms/Temp'), '34')
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_Respiratory Rate_w18'), '32')
+WebUI.setText(findTestObject('Page_KenyaEMR/input_Pulse Rate_w12'), '120')
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_Oxygen Saturation_w20'), '14')
+WebUI.setText(findTestObject('Page_KenyaEMR/input_mmHg_w14'), '160')
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_kg_w22'), '69')
+WebUI.setText(findTestObject('Page_KenyaEMR/input_mmHg_w16'), '150')
 
-WebUI.setText(findTestObject('Page_KenyaEMR/input_cm_w24'), '178')
+WebUI.setText(findTestObject('Page_KenyaEMR/input_Respiratory Rate_w18'), '45')
 
-WebUI.click(findTestObject('Page_KenyaEMR/input_MUAC_w26'))
+WebUI.setText(findTestObject('Page_KenyaEMR/input_Oxygen Saturation_w20'), '42')
 
-WebUI.click(findTestObject('Page_KenyaEMR/input_LMP_w28-display'))
+WebUI.setText(findTestObject('Page_KenyaEMR/input_kg_w22'), '73')
 
-WebUI.click(findTestObject('Page_KenyaEMR/span_Prev'))
+WebUI.setText(findTestObject('Page_KenyaEMR/input_cm_w24'), '166')
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/a_3'))
+WebUI.setText(findTestObject('Registration/Forms/Muac'), '34567')
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c'))
+WebUI.click(findTestObject('Registration/Forms/LMP_textbox'))
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/div_Follow Up Tracking Form'))
+WebUI.setText(findTestObject('Registration/Forms/LMP_Date'), '5-03-2020', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/div_Depression Screening PHQ-9'))
+WebUI.click(findTestObject('Registration/Forms/triage_submit'))
+
+WebUI.click(findTestObject('Registration/KP_Forms/PHQ9_button_form'))
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Little interest or pleasure in doing _aeac6c'))
 
@@ -271,7 +271,7 @@ WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Thoughts that 
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c'))
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/div_Peer Overdose Reporting Tool'))
+WebUI.click(findTestObject('Registration/KP_Forms/HCW_overdose_click'))
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3'))
 
@@ -294,27 +294,17 @@ WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Ever experienc
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Alcohol_w24'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/textarea_Others (Specify)_w36'), 'Doing Ok')
+WebUI.selectOptionByValue(findTestObject('Page_KenyaEMR/select_RecoveredDiedReferred'), '1272', true)
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Died_w38'))
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Others (Specify)_w38'), 'Mercy Mione')
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input__w40'), 'Migori HC')
-
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input__w42'), 'Emma Milka')
-
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w44-display'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
-
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w46'), 'Joyce Odhiambo')
-
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w48-display'))
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w40-display'))
 
 WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c'))
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/div_HCW Overdose Reporting Tool'))
+WebUI.click(findTestObject('Registration/KP_Forms/Peer_overdose_click'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3'), 'Migori')
 
@@ -335,15 +325,21 @@ WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Ever experienc
 
 WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Alcohol_w24'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KenyaEMR/select_RecoveredDiedReferred'), '1898', true)
-
 WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/textarea_Others (Specify)_w36'), 'Doing Ok')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KenyaEMR/select_RecoveredDiedReferred'), '1272', true)
+WebUI.click(findTestObject('Page_KenyaEMR/input_Died_w38'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Others (Specify)_w38'), 'Mercy Mione')
+WebUI.setText(findTestObject('Page_KenyaEMR/input__w40'), 'Migori HC')
 
-WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w40-display'))
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input__w42'), 'Emma Milka')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w44-display'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w46'), 'Joyce Odhiambo')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w48-display'))
 
 WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
 

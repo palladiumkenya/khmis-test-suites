@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>kp_enroll_type_of_test</name>
+   <name>Peer_overdose_click</name>
    <tag></tag>
-   <elementGuidId>04ea28a1-1773-4d25-ac78-0e5439e47283</elementGuidId>
+   <elementGuidId>8884a10c-4bbd-459f-a849-6b726cc607d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//fieldset[3]/table/tbody/tr[2]/td[2]/span/input</value>
+         <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[5]/div[2]/div[3]/b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//fieldset[3]/table/tbody/tr[2]/td[2]/span/input</value>
+      <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[5]/div[2]/div[3]/b</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>kp_enroll_type_of_test</name>
+   <name>PHQ9_button_form</name>
    <tag></tag>
-   <elementGuidId>04ea28a1-1773-4d25-ac78-0e5439e47283</elementGuidId>
+   <elementGuidId>0b6b338e-109f-4443-bac1-c7edc659802a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//fieldset[3]/table/tbody/tr[2]/td[2]/span/input</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Peer Overdose Reporting Tool'])[1]/preceding::div[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//fieldset[3]/table/tbody/tr[2]/td[2]/span/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peer Overdose Reporting Tool'])[1]/preceding::div[6]</value>
    </webElementProperties>
 </WebElementEntity>
