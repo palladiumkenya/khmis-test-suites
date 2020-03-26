@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>examination-next</name>
+   <tag></tag>
+   <elementGuidId>4f72b14e-b4a5-4531-8009-ee295287bde1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[5]/div[1]/div/form/div/div[3]/div/div/div[2]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[5]/div[1]/div/form/div/div[3]/div/div/div[2]/a[2]</value>
+   </webElementProperties>
+</WebElementEntity>

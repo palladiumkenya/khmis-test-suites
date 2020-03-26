@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Daily-frequency</name>
+   <tag></tag>
+   <elementGuidId>df87b84c-f6e0-4dac-bfa7-57cbd1831e89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div/div/div/div[2]/div/div[2]/form/p[3]/span/select-order-frequency/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[2]/div/div/div/div/div[2]/div/div[2]/form/p[3]/span/select-order-frequency/ul/li/a</value>
+   </webElementProperties>
+</WebElementEntity>
