@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Peer Overdose Reporting Tool'])[1]/following::div[2]</value>
+         <value>//*/text()[normalize-space(.)='HCW Overdose Reporting Tool']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peer Overdose Reporting Tool'])[1]/following::div[2]</value>
+      <value>//*/text()[normalize-space(.)='HCW Overdose Reporting Tool']/parent::*</value>
    </webElementProperties>
 </WebElementEntity>

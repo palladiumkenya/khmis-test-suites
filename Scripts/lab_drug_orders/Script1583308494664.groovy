@@ -249,3 +249,103 @@ WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how
 
 WebUI.click(findTestObject('Page_KenyaEMR/input_Others (Specify)_w38'))
 
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/div_Violence Reporting Form'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3'), 'Migori')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Date_w10-display'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/span_Prev'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/a_4'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input__w12'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Verbal Abuse_w16'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes I tested positive_w26'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w28'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/td_YesNo'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w30'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Client_w32'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/input_Yes_w44'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w46'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w48'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w50'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w34'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w36'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Died_w38'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w40'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/input_Yes_w42'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w52'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w54'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Employer_w56'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Other_w58'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Other KP (specify)_w60'), 'Friend')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Other KP (specify)_w62-display'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/span_Prev'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_5'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/textarea_Type of post violence support prov_afa2fa'), 'Given Drugs')
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of servicesProvided within 5_54002a'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of services Provided within _02c6bf'), '6')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w106'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of services Provided within _b5429c'), '6')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w110'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of services Provided within _2d2b54'), '4')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of services Provided within _141857'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of services Provided within _c5da8e'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/td_Duration of services                    _885eb6'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Duration of services Provided within _c5da8e'), '7')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Yes_w118'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/td_DeadImprisonedHospitalizedAt homeSafe place'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_Hospitalized_w120'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/textarea_Follow up action plan_w122'), 'Police Case')
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input__w124-display'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_10'))
+
+WebUI.click(findTestObject('Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_18'))
+
+WebUI.rightClick(findTestObject('Registration/KP_Forms/patient-search-click'))
+
+WebUI.click(findTestObject('Page_KenyaEMR/a_6'))
+

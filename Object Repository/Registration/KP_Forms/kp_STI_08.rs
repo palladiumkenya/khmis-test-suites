@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Peer_overdose_click</name>
+   <name>kp_STI_08</name>
    <tag></tag>
-   <elementGuidId>8884a10c-4bbd-459f-a849-6b726cc607d8</elementGuidId>
+   <elementGuidId>786f7df5-6f0a-418d-b11b-e59000b8f69b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;community-outreach-tools&quot;]/li/a/div[2]/b</value>
+         <value>//*[@id=&quot;w114_0&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;community-outreach-tools&quot;]/li/a/div[2]/b</value>
+      <value>//*[@id=&quot;w114_0&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

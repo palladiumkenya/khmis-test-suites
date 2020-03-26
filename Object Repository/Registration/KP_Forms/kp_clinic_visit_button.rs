@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Peer_overdose_click</name>
+   <name>kp_clinic_visit_button</name>
    <tag></tag>
-   <elementGuidId>8884a10c-4bbd-459f-a849-6b726cc607d8</elementGuidId>
+   <elementGuidId>2d8db22e-95d8-49d3-bd38-e386e88af08f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;community-outreach-tools&quot;]/li/a/div[2]/b</value>
+         <value>//*/text()[normalize-space(.)='Clinic visit form']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;community-outreach-tools&quot;]/li/a/div[2]/b</value>
+      <value>//*/text()[normalize-space(.)='Clinic visit form']/parent::*</value>
    </webElementProperties>
 </WebElementEntity>
