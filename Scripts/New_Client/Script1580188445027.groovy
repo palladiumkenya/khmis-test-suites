@@ -41,11 +41,11 @@ WebUI.waitForElementClickable(findTestObject('Buttons/clinicNo'), 0)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Buttons/clinicNo'), '16500033')
+WebUI.setText(findTestObject('Buttons/clinicNo'), '16600033')
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Buttons/idNo'), '15100030')
+WebUI.setText(findTestObject('Buttons/idNo'), '16100030')
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -339,7 +339,7 @@ WebUI.click(findTestObject('Registration/Forms/hts_linkage_button'))
 
 WebUI.click(findTestObject('Page_KenyaEMR/input_This facility_default-facility'))
 
-WebUI.setText(findTestObject('Registration/Forms/hts_linkage_CCC_number'), '1968697764')
+WebUI.setText(findTestObject('Registration/Forms/hts_linkage_CCC_number'), '1968699764')
 
 WebUI.setText(findTestObject('Registration/Forms/hts_linkage_hcw_name'), 'Mary Kwamboka')
 
@@ -358,6 +358,8 @@ WebUI.click(findTestObject('Registration/Forms/free_field_click'))
 WebUI.click(findTestObject('Registration/Forms/hts_linkage_art_field_date'))
 
 WebUI.setText(findTestObject('Registration/Forms/hts_linkage_art_date'), '30-Mar-2020', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Registration/Forms/free_field_click'))
 
 WebUI.click(findTestObject('Registration/Forms/hts_linkage_remark'), FailureHandling.STOP_ON_FAILURE)
 
