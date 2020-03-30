@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='htmlform']/div/div[3]/div/div[2]/fieldset/table/tbody/tr[4]/td[2]/table/tbody/tr[3]/td[2]</value>
+         <value>//*[@id=&quot;w16_1&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

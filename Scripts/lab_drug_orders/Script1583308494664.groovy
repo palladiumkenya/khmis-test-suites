@@ -349,3 +349,9 @@ WebUI.rightClick(findTestObject('Registration/KP_Forms/patient-search-click'))
 
 WebUI.click(findTestObject('Page_KenyaEMR/a_6'))
 
+WebUI.click(findTestObject('Page_KenyaEMR/a_Nummular Eczema'))
+
+WebUI.setText(findTestObject('Page_KenyaEMR/input_Treatment Plan_w40'), 'Nummular Eczema')
+
+WebUI.setText(findTestObject('Registration/KP_Forms/kp_diagnosis_04'), 'Nummular Eczema')
+
