@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kp_followup_01</name>
+   <tag></tag>
+   <elementGuidId>289422fa-49ba-493d-966a-5ff83176213b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//fieldset/table/tbody/tr/td[2]/span/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//fieldset/table/tbody/tr/td[2]/span/input</value>
+   </webElementProperties>
+</WebElementEntity>
