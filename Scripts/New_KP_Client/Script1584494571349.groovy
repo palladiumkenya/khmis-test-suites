@@ -168,7 +168,7 @@ WebUI.click(findTestObject('Registration/KP_Forms/kp_enroll_button'))
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_enrollment_type'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuiop1234567890asdfghjkl376')
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuiop1234567890asdfghjkl476')
 
 WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Alias_w13'), 'Lucky')
 
@@ -662,13 +662,13 @@ WebUI.click(findTestObject('Registration/KP_Forms/kp_followup_button'))
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_followup_date'))
 
-WebUI.setText(findTestObject('Registration/KP_Forms/kp_followup_date'), '30-Mar-2020')
+WebUI.setText(findTestObject('Registration/KP_Forms/kp_followup_date'), '30-Apr-2020')
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_followup_01'))
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_followup_02'))
 
-WebUI.setText(findTestObject('Registration/KP_Forms/kp_followup_02'), '30-Mar-2020')
+WebUI.setText(findTestObject('Registration/KP_Forms/kp_followup_02'), '30-Apr-2020')
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_followup_03'))
 
