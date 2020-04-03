@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Key Population'])[1]/following::div[3]</value>
+         <value>//*[@id=&quot;fr5682&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Key Population'])[1]/following::div[3]</value>
+      <value>//*[@id=&quot;fr5682&quot;]/div[2]</value>
    </webElementProperties>
 </WebElementEntity>

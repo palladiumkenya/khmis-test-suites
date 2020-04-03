@@ -168,7 +168,7 @@ WebUI.click(findTestObject('Registration/KP_Forms/kp_enroll_button'))
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_enrollment_type'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuiop1234567890asdfghjkl276')
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuiop1234567890asdfghjkl376')
 
 WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Alias_w13'), 'Lucky')
 
