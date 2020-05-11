@@ -45,7 +45,7 @@ WebUI.setText(findTestObject('Buttons/surName'), 'Juonaa')
 
 WebUI.click(findTestObject('Buttons/firstName'))
 
-WebUI.setText(findTestObject('Buttons/firstName'), 'Kimra')
+WebUI.setText(findTestObject('Buttons/firstName'), 'Masai')
 
 WebUI.click(findTestObject('Buttons/gender/femal'))
 
@@ -173,7 +173,7 @@ WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_enrollment_type'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'dwertyuibp1234567890asdfghjkl168')
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'dwertyuibp0134567890asdfghjkl168')
 
 WebUI.setText(findTestObject('Registration/KP_Forms/alias-name'), ' mary')
 
