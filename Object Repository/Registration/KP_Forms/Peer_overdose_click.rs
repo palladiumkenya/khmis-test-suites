@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Peer_overdose_click</name>
+   <tag></tag>
+   <elementGuidId>8884a10c-4bbd-459f-a849-6b726cc607d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;community-outreach-tools&quot;]/li/a/div[2]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;community-outreach-tools&quot;]/li/a/div[2]/b</value>
+   </webElementProperties>
+</WebElementEntity>

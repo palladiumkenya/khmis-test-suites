@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drug_unit_01</name>
+   <tag></tag>
+   <elementGuidId>42f522fd-57f2-4613-96ec-c75df3dd0906</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;drug-order-group&quot;]/div[1]/table/tbody/tr[3]/td[6]/select/option[42]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;drug-order-group&quot;]/div[1]/table/tbody/tr[3]/td[6]/select/option[42]</value>
+   </webElementProperties>
+</WebElementEntity>

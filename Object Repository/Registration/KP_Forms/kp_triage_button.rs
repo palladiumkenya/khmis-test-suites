@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kp_triage_button</name>
+   <tag></tag>
+   <elementGuidId>fe987bd8-2dce-4c6d-8ede-3f1f8317562a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;other-tools&quot;]/li/a/div[1]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;other-tools&quot;]/li/a/div[1]/b</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kp_HCW_attendee_date</name>
+   <tag></tag>
+   <elementGuidId>77477e0b-7871-4081-b9b5-8e71773691ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@id='overdose-reporting-tool']/tbody/tr[9]/td[2]/input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[@id='overdose-reporting-tool']/tbody/tr[9]/td[2]/input[2]</value>
+   </webElementProperties>
+</WebElementEntity>

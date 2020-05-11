@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KPNewClient" time="162.75" tests="1" failures="1" errors="0">
+   <testsuite name="KPNewClient" tests="1" failures="1" errors="0" time="162.75" timestamp="2020-05-11 13:10:28" hostname="user - DESKTOP-VS7DR70" id="Test Suites/KPNewClient">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_131026\\KPNewClient\\20200511_131026"/>
+         <property name="logFiles" value="C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_131026\\KPNewClient\\20200511_131026\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_131026\\KPNewClient\\20200511_131026\\1589191990388.png"/>
+         <property name="hostName" value="user - DESKTOP-VS7DR70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="10.230.1.1"/>
+         <property name="sessionId" value="251b531dbd384626ed505323c4e9abf1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New_KP_Client" time="161.62" classname="Test Cases/New_KP_Client" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-11 13:10:29 - [TEST_CASE][FAILED] - Test Cases/New_KP_Client: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-11 13:10:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-11 13:10:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-11 13:10:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-11 13:10:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-11 13:10:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-11 13:10:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-11 13:10:37 - [TEST_STEP][PASSED] - navigateToUrl("https://data.kenyahmis.org:9100/openmrs/login.htm"): Navigate to 'https://data.kenyahmis.org:9100/openmrs/login.htm' successfully
+
+2020-05-11 13:10:49 - [MESSAGE][PASSED] - Navigate to 'https://data.kenyahmis.org:9100/openmrs/login.htm' successfully
+
+2020-05-11 13:10:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_Username_uname"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_KenyaEMR/input_Username_uname'
+
+2020-05-11 13:10:50 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_KenyaEMR/input_Username_uname'
+
+2020-05-11 13:10:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_KenyaEMR/input_Password_pw"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_KenyaEMR/input_Password_pw'
+
+2020-05-11 13:10:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KenyaEMR/input_Password_pw'
+
+2020-05-11 13:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/button_Login")): Object: 'Object Repository/Page_KenyaEMR/button_Login' is clicked on
+
+2020-05-11 13:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/button_Login' is clicked on
+
+2020-05-11 13:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/a_Home")): Object: 'Object Repository/Page_KenyaEMR/a_Home' is clicked on
+
+2020-05-11 13:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/a_Home' is clicked on
+
+2020-05-11 13:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/img")): Object: 'Object Repository/Page_KenyaEMR/img' is clicked on
+
+2020-05-11 13:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/img' is clicked on
+
+2020-05-11 13:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/div_Find or create patient")): Object: 'Object Repository/Page_KenyaEMR/div_Find or create patient' is clicked on
+
+2020-05-11 13:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/div_Find or create patient' is clicked on
+
+2020-05-11 13:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/div_Create new patientPatient cant be found")): Object: 'Object Repository/Page_KenyaEMR/div_Create new patientPatient cant be found' is clicked on
+
+2020-05-11 13:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/div_Create new patientPatient cant be found' is clicked on
+
+2020-05-11 13:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/button_Register new Patient")): Object: 'Object Repository/Page_KenyaEMR/button_Register new Patient' is clicked on
+
+2020-05-11 13:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/button_Register new Patient' is clicked on
+
+2020-05-11 13:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/surName"), STOP_ON_FAILURE): Object: 'Object Repository/Buttons/surName' is clicked on
+
+2020-05-11 13:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/surName' is clicked on
+
+2020-05-11 13:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/surName"), "Juonaa"): Text 'Juonaa' is set on object 'Object Repository/Buttons/surName'
+
+2020-05-11 13:11:25 - [MESSAGE][PASSED] - Text 'Juonaa' is set on object 'Object Repository/Buttons/surName'
+
+2020-05-11 13:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/firstName")): Object: 'Object Repository/Buttons/firstName' is clicked on
+
+2020-05-11 13:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/firstName' is clicked on
+
+2020-05-11 13:11:25 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/firstName"), "Kimra"): Text 'Kimra' is set on object 'Object Repository/Buttons/firstName'
+
+2020-05-11 13:11:26 - [MESSAGE][PASSED] - Text 'Kimra' is set on object 'Object Repository/Buttons/firstName'
+
+2020-05-11 13:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/gender/femal")): Object: 'Object Repository/Buttons/gender/femal' is clicked on
+
+2020-05-11 13:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/gender/femal' is clicked on
+
+2020-05-11 13:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/idNo"), STOP_ON_FAILURE): Object: 'Object Repository/Buttons/idNo' is clicked on
+
+2020-05-11 13:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/idNo' is clicked on
+
+2020-05-11 13:11:27 - [TEST_STEP][PASSED] - click(findTestObject("date/birthDate")): Object: 'Object Repository/date/birthDate' is clicked on
+
+2020-05-11 13:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/date/birthDate' is clicked on
+
+2020-05-11 13:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("date/birthDate"), "30-May-1973"): Text '30-May-1973' is set on object 'Object Repository/date/birthDate'
+
+2020-05-11 13:11:28 - [MESSAGE][PASSED] - Text '30-May-1973' is set on object 'Object Repository/date/birthDate'
+
+2020-05-11 13:11:28 - [TEST_STEP][PASSED] - click(findTestObject("date/birthDateDone")): Object: 'Object Repository/date/birthDateDone' is clicked on
+
+2020-05-11 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/date/birthDateDone' is clicked on
+
+2020-05-11 13:11:29 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-05-11 13:11:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-11 13:11:29 - [TEST_STEP][PASSED] - click(findTestObject("date/estimateAge")): Object: 'Object Repository/date/estimateAge' is clicked on
+
+2020-05-11 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/date/estimateAge' is clicked on
+
+2020-05-11 13:11:29 - [TEST_STEP][PASSED] - click(findTestObject("date/fromAgeButton")): Object: 'Object Repository/date/fromAgeButton' is clicked on
+
+2020-05-11 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/date/fromAgeButton' is clicked on
+
+2020-05-11 13:11:30 - [TEST_STEP][PASSED] - click(findTestObject("date/enterAge")): Object: 'Object Repository/date/enterAge' is clicked on
+
+2020-05-11 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/date/enterAge' is clicked on
+
+2020-05-11 13:11:30 - [TEST_STEP][PASSED] - setText(findTestObject("date/enterAge"), "47"): Text '47' is set on object 'Object Repository/date/enterAge'
+
+2020-05-11 13:11:31 - [MESSAGE][PASSED] - Text '47' is set on object 'Object Repository/date/enterAge'
+
+2020-05-11 13:11:31 - [TEST_STEP][PASSED] - click(findTestObject("date/submitEstAge")): Object: 'Object Repository/date/submitEstAge' is clicked on
+
+2020-05-11 13:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/date/submitEstAge' is clicked on
+
+2020-05-11 13:11:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 13:11:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 13:11:33 - [TEST_STEP][PASSED] - click(findTestObject("maritalStatus/mainStatus")): Object: 'Object Repository/maritalStatus/mainStatus' is clicked on
+
+2020-05-11 13:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/maritalStatus/mainStatus' is clicked on
+
+2020-05-11 13:11:33 - [TEST_STEP][PASSED] - click(findTestObject("maritalStatus/polygamous")): Object: 'Object Repository/maritalStatus/polygamous' is clicked on
+
+2020-05-11 13:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/maritalStatus/polygamous' is clicked on
+
+2020-05-11 13:11:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 13:11:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 13:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/occup/Occupation")): Object: 'Object Repository/Buttons/occup/Occupation' is clicked on
+
+2020-05-11 13:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/occup/Occupation' is clicked on
+
+2020-05-11 13:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/occup/farmer")): Object: 'Object Repository/Buttons/occup/farmer' is clicked on
+
+2020-05-11 13:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/occup/farmer' is clicked on
+
+2020-05-11 13:11:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 13:11:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 13:11:38 - [TEST_STEP][PASSED] - click(findTestObject("education/education")): Object: 'Object Repository/education/education' is clicked on
+
+2020-05-11 13:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/education/education' is clicked on
+
+2020-05-11 13:11:39 - [TEST_STEP][PASSED] - click(findTestObject("education/secondarySchool")): Object: 'Object Repository/education/secondarySchool' is clicked on
+
+2020-05-11 13:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/education/secondarySchool' is clicked on
+
+2020-05-11 13:11:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 13:11:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 13:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Phone_Number")): Object: 'Object Repository/Registration/Forms/Phone_Number' is clicked on
+
+2020-05-11 13:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Phone_Number' is clicked on
+
+2020-05-11 13:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Phone_Number"), "0736444672"): Text '0736444672' is set on object 'Object Repository/Registration/Forms/Phone_Number'
+
+2020-05-11 13:11:41 - [MESSAGE][PASSED] - Text '0736444672' is set on object 'Object Repository/Registration/Forms/Phone_Number'
+
+2020-05-11 13:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Alt_Phone_Num")): Object: 'Object Repository/Registration/Forms/Alt_Phone_Num' is clicked on
+
+2020-05-11 13:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Alt_Phone_Num' is clicked on
+
+2020-05-11 13:11:42 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Alt_Phone_Num"), "0734621568"): Text '0734621568' is set on object 'Object Repository/Registration/Forms/Alt_Phone_Num'
+
+2020-05-11 13:11:42 - [MESSAGE][PASSED] - Text '0734621568' is set on object 'Object Repository/Registration/Forms/Alt_Phone_Num'
+
+2020-05-11 13:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Postal_Address")): Object: 'Object Repository/Registration/Forms/Postal_Address' is clicked on
+
+2020-05-11 13:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Postal_Address' is clicked on
+
+2020-05-11 13:11:42 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Postal_Address"), "Migori"): Text 'Migori' is set on object 'Object Repository/Registration/Forms/Postal_Address'
+
+2020-05-11 13:11:43 - [MESSAGE][PASSED] - Text 'Migori' is set on object 'Object Repository/Registration/Forms/Postal_Address'
+
+2020-05-11 13:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Email")): Object: 'Object Repository/Registration/Forms/Email' is clicked on
+
+2020-05-11 13:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Email' is clicked on
+
+2020-05-11 13:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Email"), "lucy@gmail.com"): Text 'lucy@gmail.com' is set on object 'Object Repository/Registration/Forms/Email'
+
+2020-05-11 13:11:43 - [MESSAGE][PASSED] - Text 'lucy@gmail.com' is set on object 'Object Repository/Registration/Forms/Email'
+
+2020-05-11 13:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/County")): Object: 'Object Repository/Registration/Forms/County' is clicked on
+
+2020-05-11 13:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/County' is clicked on
+
+2020-05-11 13:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/County_Name")): Object: 'Object Repository/Registration/Forms/County_Name' is clicked on
+
+2020-05-11 13:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/County_Name' is clicked on
+
+2020-05-11 13:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Sub_county")): Object: 'Object Repository/Registration/Forms/Sub_county' is clicked on
+
+2020-05-11 13:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Sub_county' is clicked on
+
+2020-05-11 13:11:44 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Sub_county"), "Nyamira"): Text 'Nyamira' is set on object 'Object Repository/Registration/Forms/Sub_county'
+
+2020-05-11 13:11:45 - [MESSAGE][PASSED] - Text 'Nyamira' is set on object 'Object Repository/Registration/Forms/Sub_county'
+
+2020-05-11 13:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/ward")): Object: 'Object Repository/Registration/Forms/ward' is clicked on
+
+2020-05-11 13:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/ward' is clicked on
+
+2020-05-11 13:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/ward"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/ward'
+
+2020-05-11 13:11:45 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/ward'
+
+2020-05-11 13:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Location")): Object: 'Object Repository/Registration/Forms/Location' is clicked on
+
+2020-05-11 13:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Location' is clicked on
+
+2020-05-11 13:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Location"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Location'
+
+2020-05-11 13:11:46 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Location'
+
+2020-05-11 13:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Sub_location")): Object: 'Object Repository/Registration/Forms/Sub_location' is clicked on
+
+2020-05-11 13:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Sub_location' is clicked on
+
+2020-05-11 13:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Sub_location"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Sub_location'
+
+2020-05-11 13:11:47 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Sub_location'
+
+2020-05-11 13:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Village")): Object: 'Object Repository/Registration/Forms/Village' is clicked on
+
+2020-05-11 13:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Village' is clicked on
+
+2020-05-11 13:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Village"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Village'
+
+2020-05-11 13:11:47 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Village'
+
+2020-05-11 13:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Landmark")): Object: 'Object Repository/Registration/Forms/Landmark' is clicked on
+
+2020-05-11 13:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Landmark' is clicked on
+
+2020-05-11 13:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Landmark"), "kisii school"): Text 'kisii school' is set on object 'Object Repository/Registration/Forms/Landmark'
+
+2020-05-11 13:11:48 - [MESSAGE][PASSED] - Text 'kisii school' is set on object 'Object Repository/Registration/Forms/Landmark'
+
+2020-05-11 13:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Nearest_HC")): Object: 'Object Repository/Registration/Forms/Nearest_HC' is clicked on
+
+2020-05-11 13:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Nearest_HC' is clicked on
+
+2020-05-11 13:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Nearest_HC"), "kisii hospital"): Text 'kisii hospital' is set on object 'Object Repository/Registration/Forms/Nearest_HC'
+
+2020-05-11 13:11:49 - [MESSAGE][PASSED] - Text 'kisii hospital' is set on object 'Object Repository/Registration/Forms/Nearest_HC'
+
+2020-05-11 13:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Next_Kin")): Object: 'Object Repository/Registration/Forms/Next_Kin' is clicked on
+
+2020-05-11 13:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Next_Kin' is clicked on
+
+2020-05-11 13:11:49 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Next_Kin"), "Maina Mwende"): Text 'Maina Mwende' is set on object 'Object Repository/Registration/Forms/Next_Kin'
+
+2020-05-11 13:11:49 - [MESSAGE][PASSED] - Text 'Maina Mwende' is set on object 'Object Repository/Registration/Forms/Next_Kin'
+
+2020-05-11 13:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Rlnship_kin")): Object: 'Object Repository/Registration/Forms/Rlnship_kin' is clicked on
+
+2020-05-11 13:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Rlnship_kin' is clicked on
+
+2020-05-11 13:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Rlnship")): Object: 'Object Repository/Registration/Forms/Rlnship' is clicked on
+
+2020-05-11 13:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Rlnship' is clicked on
+
+2020-05-11 13:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/NextKin_Contact")): Object: 'Object Repository/Registration/Forms/NextKin_Contact' is clicked on
+
+2020-05-11 13:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/NextKin_Contact' is clicked on
+
+2020-05-11 13:11:50 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/NextKin_Contact"), "0741234567"): Text '0741234567' is set on object 'Object Repository/Registration/Forms/NextKin_Contact'
+
+2020-05-11 13:11:51 - [MESSAGE][PASSED] - Text '0741234567' is set on object 'Object Repository/Registration/Forms/NextKin_Contact'
+
+2020-05-11 13:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/NextKin_Address")): Object: 'Object Repository/Registration/Forms/NextKin_Address' is clicked on
+
+2020-05-11 13:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/NextKin_Address' is clicked on
+
+2020-05-11 13:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/NextKin_Address"), "kisii"): Text 'kisii' is set on object 'Object Repository/Registration/Forms/NextKin_Address'
+
+2020-05-11 13:11:51 - [MESSAGE][PASSED] - Text 'kisii' is set on object 'Object Repository/Registration/Forms/NextKin_Address'
+
+2020-05-11 13:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/SubmitRegistration")): Object: 'Object Repository/Registration/Forms/SubmitRegistration' is clicked on
+
+2020-05-11 13:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/SubmitRegistration' is clicked on
+
+2020-05-11 13:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/home_button")): Object: 'Object Repository/Registration/Forms/home_button' is clicked on
+
+2020-05-11 13:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/home_button' is clicked on
+
+2020-05-11 13:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_provider_button")): Object: 'Object Repository/Registration/KP_Forms/kp_provider_button' is clicked on
+
+2020-05-11 13:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_provider_button' is clicked on
+
+2020-05-11 13:12:05 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/search_patient_all")): Object: 'Object Repository/Registration/KP_Forms/search_patient_all' is clicked on
+
+2020-05-11 13:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/search_patient_all' is clicked on
+
+2020-05-11 13:12:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_ID or name (3 chars min)_query"), "Lydia"): Text 'Lydia' is set on object 'Object Repository/Page_KenyaEMR/input_ID or name (3 chars min)_query'
+
+2020-05-11 13:12:12 - [MESSAGE][PASSED] - Text 'Lydia' is set on object 'Object Repository/Page_KenyaEMR/input_ID or name (3 chars min)_query'
+
+2020-05-11 13:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/patient-search-click")): Object: 'Object Repository/Registration/KP_Forms/patient-search-click' is clicked on
+
+2020-05-11 13:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/patient-search-click' is clicked on
+
+2020-05-11 13:12:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 13:12:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 13:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_enroll_button")): Object: 'Object Repository/Registration/KP_Forms/kp_enroll_button' is clicked on
+
+2020-05-11 13:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_enroll_button' is clicked on
+
+2020-05-11 13:12:27 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-05-11 13:12:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-11 13:12:27 - [TEST_STEP][FAILED] - click(findTestObject("Registration/KP_Forms/kp_enrollment_type")): Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1584494571349.run(Script1584494571349.groovy:174)
+	... 13 more
+)
+
+2020-05-11 13:13:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-11 13:13:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1584494571349.run(Script1584494571349.groovy:174)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_131026\\KPNewClient\\20200511_131026\\1589191990388.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-11 13:10:29 - [TEST_CASE][FAILED] - Test Cases/New_KP_Client: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-11 13:10:28 - [TEST_SUITE][FAILED] - KPNewClient: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-11 13:10:28 - [TEST_SUITE][FAILED] - KPNewClient: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/KP_Forms/kp_enrollment_type'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589191826205.run(TempTestSuite1589191826205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' located by 'By.xpath: //fieldset/table/tbody/tr/td[2]/span/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kp_referal_button</name>
+   <tag></tag>
+   <elementGuidId>94aa0782-21c1-41d5-a837-9c384495a0ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*/text()[normalize-space(.)='Referral']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Referral']/parent::*</value>
+   </webElementProperties>
+</WebElementEntity>

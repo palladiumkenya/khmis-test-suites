@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KPNewClient" time="179.637" tests="1" failures="1" errors="0">
+   <testsuite name="KPNewClient" tests="1" failures="1" errors="0" time="179.637" timestamp="2020-05-11 11:31:57" hostname="user - DESKTOP-VS7DR70" id="Test Suites/KPNewClient">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_113154\\KPNewClient\\20200511_113154"/>
+         <property name="logFiles" value="C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_113154\\KPNewClient\\20200511_113154\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_113154\\KPNewClient\\20200511_113154\\1589186095947.png"/>
+         <property name="hostName" value="user - DESKTOP-VS7DR70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="10.230.1.1"/>
+         <property name="sessionId" value="b185e48318f6f137bb6268378273eb06"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New_KP_Client" time="178.308" classname="Test Cases/New_KP_Client" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-11 11:31:58 - [TEST_CASE][FAILED] - Test Cases/New_KP_Client: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-11 11:31:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-11 11:32:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-11 11:32:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-11 11:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-11 11:32:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-11 11:32:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-11 11:32:07 - [TEST_STEP][PASSED] - navigateToUrl("https://data.kenyahmis.org:9100/openmrs/login.htm"): Navigate to 'https://data.kenyahmis.org:9100/openmrs/login.htm' successfully
+
+2020-05-11 11:32:11 - [MESSAGE][PASSED] - Navigate to 'https://data.kenyahmis.org:9100/openmrs/login.htm' successfully
+
+2020-05-11 11:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_Username_uname"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_KenyaEMR/input_Username_uname'
+
+2020-05-11 11:32:11 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_KenyaEMR/input_Username_uname'
+
+2020-05-11 11:32:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_KenyaEMR/input_Password_pw"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_KenyaEMR/input_Password_pw'
+
+2020-05-11 11:32:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KenyaEMR/input_Password_pw'
+
+2020-05-11 11:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/button_Login")): Object: 'Object Repository/Page_KenyaEMR/button_Login' is clicked on
+
+2020-05-11 11:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/button_Login' is clicked on
+
+2020-05-11 11:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/a_Home")): Object: 'Object Repository/Page_KenyaEMR/a_Home' is clicked on
+
+2020-05-11 11:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/a_Home' is clicked on
+
+2020-05-11 11:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/img")): Object: 'Object Repository/Page_KenyaEMR/img' is clicked on
+
+2020-05-11 11:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/img' is clicked on
+
+2020-05-11 11:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/div_Find or create patient")): Object: 'Object Repository/Page_KenyaEMR/div_Find or create patient' is clicked on
+
+2020-05-11 11:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/div_Find or create patient' is clicked on
+
+2020-05-11 11:32:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/div_Create new patientPatient cant be found")): Object: 'Object Repository/Page_KenyaEMR/div_Create new patientPatient cant be found' is clicked on
+
+2020-05-11 11:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/div_Create new patientPatient cant be found' is clicked on
+
+2020-05-11 11:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/button_Register new Patient")): Object: 'Object Repository/Page_KenyaEMR/button_Register new Patient' is clicked on
+
+2020-05-11 11:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/button_Register new Patient' is clicked on
+
+2020-05-11 11:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/surName"), STOP_ON_FAILURE): Object: 'Object Repository/Buttons/surName' is clicked on
+
+2020-05-11 11:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/surName' is clicked on
+
+2020-05-11 11:32:33 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/surName"), "Lydia"): Text 'Lydia' is set on object 'Object Repository/Buttons/surName'
+
+2020-05-11 11:32:33 - [MESSAGE][PASSED] - Text 'Lydia' is set on object 'Object Repository/Buttons/surName'
+
+2020-05-11 11:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/firstName")): Object: 'Object Repository/Buttons/firstName' is clicked on
+
+2020-05-11 11:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/firstName' is clicked on
+
+2020-05-11 11:32:33 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/firstName"), "Mukami"): Text 'Mukami' is set on object 'Object Repository/Buttons/firstName'
+
+2020-05-11 11:32:35 - [MESSAGE][PASSED] - Text 'Mukami' is set on object 'Object Repository/Buttons/firstName'
+
+2020-05-11 11:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/gender/femal")): Object: 'Object Repository/Buttons/gender/femal' is clicked on
+
+2020-05-11 11:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/gender/femal' is clicked on
+
+2020-05-11 11:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/idNo"), STOP_ON_FAILURE): Object: 'Object Repository/Buttons/idNo' is clicked on
+
+2020-05-11 11:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/idNo' is clicked on
+
+2020-05-11 11:32:37 - [TEST_STEP][PASSED] - click(findTestObject("date/birthDate")): Object: 'Object Repository/date/birthDate' is clicked on
+
+2020-05-11 11:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/date/birthDate' is clicked on
+
+2020-05-11 11:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("date/birthDate"), "30-May-1973"): Text '30-May-1973' is set on object 'Object Repository/date/birthDate'
+
+2020-05-11 11:32:38 - [MESSAGE][PASSED] - Text '30-May-1973' is set on object 'Object Repository/date/birthDate'
+
+2020-05-11 11:32:38 - [TEST_STEP][PASSED] - click(findTestObject("date/birthDateDone")): Object: 'Object Repository/date/birthDateDone' is clicked on
+
+2020-05-11 11:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/date/birthDateDone' is clicked on
+
+2020-05-11 11:32:39 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-05-11 11:32:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-11 11:32:39 - [TEST_STEP][PASSED] - click(findTestObject("date/estimateAge")): Object: 'Object Repository/date/estimateAge' is clicked on
+
+2020-05-11 11:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/date/estimateAge' is clicked on
+
+2020-05-11 11:32:39 - [TEST_STEP][PASSED] - click(findTestObject("date/fromAgeButton")): Object: 'Object Repository/date/fromAgeButton' is clicked on
+
+2020-05-11 11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/date/fromAgeButton' is clicked on
+
+2020-05-11 11:32:40 - [TEST_STEP][PASSED] - click(findTestObject("date/enterAge")): Object: 'Object Repository/date/enterAge' is clicked on
+
+2020-05-11 11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/date/enterAge' is clicked on
+
+2020-05-11 11:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("date/enterAge"), "47"): Text '47' is set on object 'Object Repository/date/enterAge'
+
+2020-05-11 11:32:41 - [MESSAGE][PASSED] - Text '47' is set on object 'Object Repository/date/enterAge'
+
+2020-05-11 11:32:41 - [TEST_STEP][PASSED] - click(findTestObject("date/submitEstAge")): Object: 'Object Repository/date/submitEstAge' is clicked on
+
+2020-05-11 11:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/date/submitEstAge' is clicked on
+
+2020-05-11 11:32:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 11:32:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 11:32:43 - [TEST_STEP][PASSED] - click(findTestObject("maritalStatus/mainStatus")): Object: 'Object Repository/maritalStatus/mainStatus' is clicked on
+
+2020-05-11 11:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/maritalStatus/mainStatus' is clicked on
+
+2020-05-11 11:32:43 - [TEST_STEP][PASSED] - click(findTestObject("maritalStatus/polygamous")): Object: 'Object Repository/maritalStatus/polygamous' is clicked on
+
+2020-05-11 11:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/maritalStatus/polygamous' is clicked on
+
+2020-05-11 11:32:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 11:32:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 11:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/occup/Occupation")): Object: 'Object Repository/Buttons/occup/Occupation' is clicked on
+
+2020-05-11 11:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/occup/Occupation' is clicked on
+
+2020-05-11 11:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/occup/farmer")): Object: 'Object Repository/Buttons/occup/farmer' is clicked on
+
+2020-05-11 11:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/occup/farmer' is clicked on
+
+2020-05-11 11:32:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 11:32:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 11:32:48 - [TEST_STEP][PASSED] - click(findTestObject("education/education")): Object: 'Object Repository/education/education' is clicked on
+
+2020-05-11 11:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/education/education' is clicked on
+
+2020-05-11 11:32:48 - [TEST_STEP][PASSED] - click(findTestObject("education/secondarySchool")): Object: 'Object Repository/education/secondarySchool' is clicked on
+
+2020-05-11 11:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/education/secondarySchool' is clicked on
+
+2020-05-11 11:32:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 11:32:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 11:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Phone_Number")): Object: 'Object Repository/Registration/Forms/Phone_Number' is clicked on
+
+2020-05-11 11:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Phone_Number' is clicked on
+
+2020-05-11 11:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Phone_Number"), "0736444672"): Text '0736444672' is set on object 'Object Repository/Registration/Forms/Phone_Number'
+
+2020-05-11 11:32:51 - [MESSAGE][PASSED] - Text '0736444672' is set on object 'Object Repository/Registration/Forms/Phone_Number'
+
+2020-05-11 11:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Alt_Phone_Num")): Object: 'Object Repository/Registration/Forms/Alt_Phone_Num' is clicked on
+
+2020-05-11 11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Alt_Phone_Num' is clicked on
+
+2020-05-11 11:32:52 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Alt_Phone_Num"), "0734621568"): Text '0734621568' is set on object 'Object Repository/Registration/Forms/Alt_Phone_Num'
+
+2020-05-11 11:32:52 - [MESSAGE][PASSED] - Text '0734621568' is set on object 'Object Repository/Registration/Forms/Alt_Phone_Num'
+
+2020-05-11 11:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Postal_Address")): Object: 'Object Repository/Registration/Forms/Postal_Address' is clicked on
+
+2020-05-11 11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Postal_Address' is clicked on
+
+2020-05-11 11:32:52 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Postal_Address"), "Migori"): Text 'Migori' is set on object 'Object Repository/Registration/Forms/Postal_Address'
+
+2020-05-11 11:32:53 - [MESSAGE][PASSED] - Text 'Migori' is set on object 'Object Repository/Registration/Forms/Postal_Address'
+
+2020-05-11 11:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Email")): Object: 'Object Repository/Registration/Forms/Email' is clicked on
+
+2020-05-11 11:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Email' is clicked on
+
+2020-05-11 11:32:53 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Email"), "lucy@gmail.com"): Text 'lucy@gmail.com' is set on object 'Object Repository/Registration/Forms/Email'
+
+2020-05-11 11:32:53 - [MESSAGE][PASSED] - Text 'lucy@gmail.com' is set on object 'Object Repository/Registration/Forms/Email'
+
+2020-05-11 11:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/County")): Object: 'Object Repository/Registration/Forms/County' is clicked on
+
+2020-05-11 11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/County' is clicked on
+
+2020-05-11 11:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/County_Name")): Object: 'Object Repository/Registration/Forms/County_Name' is clicked on
+
+2020-05-11 11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/County_Name' is clicked on
+
+2020-05-11 11:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Sub_county")): Object: 'Object Repository/Registration/Forms/Sub_county' is clicked on
+
+2020-05-11 11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Sub_county' is clicked on
+
+2020-05-11 11:32:54 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Sub_county"), "Nyamira"): Text 'Nyamira' is set on object 'Object Repository/Registration/Forms/Sub_county'
+
+2020-05-11 11:32:55 - [MESSAGE][PASSED] - Text 'Nyamira' is set on object 'Object Repository/Registration/Forms/Sub_county'
+
+2020-05-11 11:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/ward")): Object: 'Object Repository/Registration/Forms/ward' is clicked on
+
+2020-05-11 11:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/ward' is clicked on
+
+2020-05-11 11:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/ward"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/ward'
+
+2020-05-11 11:32:55 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/ward'
+
+2020-05-11 11:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Location")): Object: 'Object Repository/Registration/Forms/Location' is clicked on
+
+2020-05-11 11:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Location' is clicked on
+
+2020-05-11 11:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Location"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Location'
+
+2020-05-11 11:32:56 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Location'
+
+2020-05-11 11:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Sub_location")): Object: 'Object Repository/Registration/Forms/Sub_location' is clicked on
+
+2020-05-11 11:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Sub_location' is clicked on
+
+2020-05-11 11:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Sub_location"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Sub_location'
+
+2020-05-11 11:32:56 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Sub_location'
+
+2020-05-11 11:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Village")): Object: 'Object Repository/Registration/Forms/Village' is clicked on
+
+2020-05-11 11:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Village' is clicked on
+
+2020-05-11 11:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Village"), "Kisii"): Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Village'
+
+2020-05-11 11:32:57 - [MESSAGE][PASSED] - Text 'Kisii' is set on object 'Object Repository/Registration/Forms/Village'
+
+2020-05-11 11:32:57 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Landmark")): Object: 'Object Repository/Registration/Forms/Landmark' is clicked on
+
+2020-05-11 11:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Landmark' is clicked on
+
+2020-05-11 11:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Landmark"), "kisii school"): Text 'kisii school' is set on object 'Object Repository/Registration/Forms/Landmark'
+
+2020-05-11 11:32:58 - [MESSAGE][PASSED] - Text 'kisii school' is set on object 'Object Repository/Registration/Forms/Landmark'
+
+2020-05-11 11:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Nearest_HC")): Object: 'Object Repository/Registration/Forms/Nearest_HC' is clicked on
+
+2020-05-11 11:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Nearest_HC' is clicked on
+
+2020-05-11 11:32:58 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Nearest_HC"), "kisii hospital"): Text 'kisii hospital' is set on object 'Object Repository/Registration/Forms/Nearest_HC'
+
+2020-05-11 11:32:58 - [MESSAGE][PASSED] - Text 'kisii hospital' is set on object 'Object Repository/Registration/Forms/Nearest_HC'
+
+2020-05-11 11:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Next_Kin")): Object: 'Object Repository/Registration/Forms/Next_Kin' is clicked on
+
+2020-05-11 11:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Next_Kin' is clicked on
+
+2020-05-11 11:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Next_Kin"), "Maina Mwende"): Text 'Maina Mwende' is set on object 'Object Repository/Registration/Forms/Next_Kin'
+
+2020-05-11 11:32:59 - [MESSAGE][PASSED] - Text 'Maina Mwende' is set on object 'Object Repository/Registration/Forms/Next_Kin'
+
+2020-05-11 11:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Rlnship_kin")): Object: 'Object Repository/Registration/Forms/Rlnship_kin' is clicked on
+
+2020-05-11 11:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Rlnship_kin' is clicked on
+
+2020-05-11 11:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Rlnship")): Object: 'Object Repository/Registration/Forms/Rlnship' is clicked on
+
+2020-05-11 11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Rlnship' is clicked on
+
+2020-05-11 11:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/NextKin_Contact")): Object: 'Object Repository/Registration/Forms/NextKin_Contact' is clicked on
+
+2020-05-11 11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/NextKin_Contact' is clicked on
+
+2020-05-11 11:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/NextKin_Contact"), "0741234567"): Text '0741234567' is set on object 'Object Repository/Registration/Forms/NextKin_Contact'
+
+2020-05-11 11:33:00 - [MESSAGE][PASSED] - Text '0741234567' is set on object 'Object Repository/Registration/Forms/NextKin_Contact'
+
+2020-05-11 11:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/NextKin_Address")): Object: 'Object Repository/Registration/Forms/NextKin_Address' is clicked on
+
+2020-05-11 11:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/NextKin_Address' is clicked on
+
+2020-05-11 11:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/NextKin_Address"), "kisii"): Text 'kisii' is set on object 'Object Repository/Registration/Forms/NextKin_Address'
+
+2020-05-11 11:33:01 - [MESSAGE][PASSED] - Text 'kisii' is set on object 'Object Repository/Registration/Forms/NextKin_Address'
+
+2020-05-11 11:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/SubmitRegistration")): Object: 'Object Repository/Registration/Forms/SubmitRegistration' is clicked on
+
+2020-05-11 11:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/SubmitRegistration' is clicked on
+
+2020-05-11 11:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/home_button")): Object: 'Object Repository/Registration/Forms/home_button' is clicked on
+
+2020-05-11 11:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/home_button' is clicked on
+
+2020-05-11 11:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_provider_button")): Object: 'Object Repository/Registration/KP_Forms/kp_provider_button' is clicked on
+
+2020-05-11 11:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_provider_button' is clicked on
+
+2020-05-11 11:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/search_patient_all")): Object: 'Object Repository/Registration/KP_Forms/search_patient_all' is clicked on
+
+2020-05-11 11:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/search_patient_all' is clicked on
+
+2020-05-11 11:33:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_ID or name (3 chars min)_query"), "Lydia"): Text 'Lydia' is set on object 'Object Repository/Page_KenyaEMR/input_ID or name (3 chars min)_query'
+
+2020-05-11 11:33:13 - [MESSAGE][PASSED] - Text 'Lydia' is set on object 'Object Repository/Page_KenyaEMR/input_ID or name (3 chars min)_query'
+
+2020-05-11 11:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/patient-search-click")): Object: 'Object Repository/Registration/KP_Forms/patient-search-click' is clicked on
+
+2020-05-11 11:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/patient-search-click' is clicked on
+
+2020-05-11 11:33:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-11 11:33:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-11 11:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_enroll_button")): Object: 'Object Repository/Registration/KP_Forms/kp_enroll_button' is clicked on
+
+2020-05-11 11:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_enroll_button' is clicked on
+
+2020-05-11 11:33:26 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-05-11 11:33:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-11 11:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_enrollment_type")): Object: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' is clicked on
+
+2020-05-11 11:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_enrollment_type' is clicked on
+
+2020-05-11 11:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9"), "qwertyuibp1234567890asdfghjkl400"): Text 'qwertyuibp1234567890asdfghjkl400' is set on object 'Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'
+
+2020-05-11 11:33:28 - [MESSAGE][PASSED] - Text 'qwertyuibp1234567890asdfghjkl400' is set on object 'Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'
+
+2020-05-11 11:33:28 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/alias-name"), " mary"): Text ' mary' is set on object 'Object Repository/Registration/KP_Forms/alias-name'
+
+2020-05-11 11:33:28 - [MESSAGE][PASSED] - Text ' mary' is set on object 'Object Repository/Registration/KP_Forms/alias-name'
+
+2020-05-11 11:33:28 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_alt_contact_person"), "Mary Toto"): Text 'Mary Toto' is set on object 'Object Repository/Registration/KP_Forms/kp_alt_contact_person'
+
+2020-05-11 11:33:29 - [MESSAGE][PASSED] - Text 'Mary Toto' is set on object 'Object Repository/Registration/KP_Forms/kp_alt_contact_person'
+
+2020-05-11 11:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_alt_contact_number"), "0723458912"): Text '0723458912' is set on object 'Object Repository/Registration/KP_Forms/kp_alt_contact_number'
+
+2020-05-11 11:33:29 - [MESSAGE][PASSED] - Text '0723458912' is set on object 'Object Repository/Registration/KP_Forms/kp_alt_contact_number'
+
+2020-05-11 11:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/peer_edu_contact")): Object: 'Object Repository/Registration/KP_Forms/peer_edu_contact' is clicked on
+
+2020-05-11 11:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/peer_edu_contact' is clicked on
+
+2020-05-11 11:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/hot_spot"), "Migori"): Text 'Migori' is set on object 'Object Repository/Registration/KP_Forms/hot_spot'
+
+2020-05-11 11:33:30 - [MESSAGE][PASSED] - Text 'Migori' is set on object 'Object Repository/Registration/KP_Forms/hot_spot'
+
+2020-05-11 11:33:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Registration/KP_Forms/hotspot_type"), "165017", true): All options with value '165017' are selected in object 'Object Repository/Registration/KP_Forms/hotspot_type'  using regular expression
+
+2020-05-11 11:33:31 - [MESSAGE][PASSED] - All options with value '165017' are selected in object 'Object Repository/Registration/KP_Forms/hotspot_type'  using regular expression
+
+2020-05-11 11:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_contactform_01"), "2000"): Text '2000' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_01'
+
+2020-05-11 11:33:31 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_01'
+
+2020-05-11 11:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_contactform_02"), "2000"): Text '2000' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_02'
+
+2020-05-11 11:33:31 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_02'
+
+2020-05-11 11:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_contactform_03"), "2"): Text '2' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_03'
+
+2020-05-11 11:33:32 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_03'
+
+2020-05-11 11:33:32 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_contactform_04"), "2"): Text '2' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_04'
+
+2020-05-11 11:33:33 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Registration/KP_Forms/kp_contactform_04'
+
+2020-05-11 11:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_contactform_submit")): Object: 'Object Repository/Registration/KP_Forms/kp_contactform_submit' is clicked on
+
+2020-05-11 11:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_contactform_submit' is clicked on
+
+2020-05-11 11:33:33 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-05-11 11:33:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-11 11:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/contact-form_button")): Object: 'Object Repository/Registration/KP_Forms/contact-form_button' is clicked on
+
+2020-05-11 11:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/contact-form_button' is clicked on
+
+2020-05-11 11:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Key Population Type_w8")): Object: 'Object Repository/Page_KenyaEMR/input_Key Population Type_w8' is clicked on
+
+2020-05-11 11:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Key Population Type_w8' is clicked on
+
+2020-05-11 11:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Do you have a regular(Non-Paying) sex_09d265")): Object: 'Object Repository/Page_KenyaEMR/input_Do you have a regular(Non-Paying) sex_09d265' is clicked on
+
+2020-05-11 11:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Do you have a regular(Non-Paying) sex_09d265' is clicked on
+
+2020-05-11 11:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input_Which year did you start sex work_w12"), "2000"): Text '2000' is set on object 'Object Repository/Page_KenyaEMR/input_Which year did you start sex work_w12'
+
+2020-05-11 11:33:49 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Page_KenyaEMR/input_Which year did you start sex work_w12'
+
+2020-05-11 11:33:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Ever experienced sexual violence_w18")): Object: 'Object Repository/Page_KenyaEMR/input_Ever experienced sexual violence_w18' is clicked on
+
+2020-05-11 11:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Ever experienced sexual violence_w18' is clicked on
+
+2020-05-11 11:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Ever experienced physical violence_w20")): Object: 'Object Repository/Page_KenyaEMR/input_Ever experienced physical violence_w20' is clicked on
+
+2020-05-11 11:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Ever experienced physical violence_w20' is clicked on
+
+2020-05-11 11:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Have you ever been tested for HIV_w22")): Object: 'Object Repository/Page_KenyaEMR/input_Have you ever been tested for HIV_w22' is clicked on
+
+2020-05-11 11:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Have you ever been tested for HIV_w22' is clicked on
+
+2020-05-11 11:33:51 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_enroll_type_of_test")): Object: 'Object Repository/Registration/KP_Forms/kp_enroll_type_of_test' is clicked on
+
+2020-05-11 11:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_enroll_type_of_test' is clicked on
+
+2020-05-11 11:33:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/input_Yes I tested positive_w26")): Object: 'Object Repository/Page_KenyaEMR/input_Yes I tested positive_w26' is clicked on
+
+2020-05-11 11:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Yes I tested positive_w26' is clicked on
+
+2020-05-11 11:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Are you willing to be tested for HIV_w28")): Object: 'Object Repository/Page_KenyaEMR/input_Are you willing to be tested for HIV_w28' is clicked on
+
+2020-05-11 11:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Are you willing to be tested for HIV_w28' is clicked on
+
+2020-05-11 11:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_In case you are due for clinical serv_585be4")): Object: 'Object Repository/Page_KenyaEMR/input_In case you are due for clinical serv_585be4' is clicked on
+
+2020-05-11 11:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_In case you are due for clinical serv_585be4' is clicked on
+
+2020-05-11 11:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Treatment supporter_w48")): Object: 'Object Repository/Page_KenyaEMR/input_Treatment supporter_w48' is clicked on
+
+2020-05-11 11:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Treatment supporter_w48' is clicked on
+
+2020-05-11 11:33:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input_Buddy Name_w56"), "Mary Toto"): Text 'Mary Toto' is set on object 'Object Repository/Page_KenyaEMR/input_Buddy Name_w56'
+
+2020-05-11 11:33:54 - [MESSAGE][PASSED] - Text 'Mary Toto' is set on object 'Object Repository/Page_KenyaEMR/input_Buddy Name_w56'
+
+2020-05-11 11:33:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input_Buddy Mobile Number_w58"), "0756721456"): Text '0756721456' is set on object 'Object Repository/Page_KenyaEMR/input_Buddy Mobile Number_w58'
+
+2020-05-11 11:33:54 - [MESSAGE][PASSED] - Text '0756721456' is set on object 'Object Repository/Page_KenyaEMR/input_Buddy Mobile Number_w58'
+
+2020-05-11 11:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c")): Object: 'Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c' is clicked on
+
+2020-05-11 11:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c' is clicked on
+
+2020-05-11 11:33:55 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-05-11 11:33:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-11 11:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_check_in")): Object: 'Object Repository/Registration/KP_Forms/kp_check_in' is clicked on
+
+2020-05-11 11:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_check_in' is clicked on
+
+2020-05-11 11:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/SubmitCheckInButton")): Object: 'Object Repository/Registration/Forms/SubmitCheckInButton' is clicked on
+
+2020-05-11 11:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/SubmitCheckInButton' is clicked on
+
+2020-05-11 11:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_triage_button")): Object: 'Object Repository/Registration/KP_Forms/kp_triage_button' is clicked on
+
+2020-05-11 11:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_triage_button' is clicked on
+
+2020-05-11 11:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/TriageDate")): Object: 'Object Repository/Registration/Forms/TriageDate' is clicked on
+
+2020-05-11 11:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/TriageDate' is clicked on
+
+2020-05-11 11:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Reason_Visit")): Object: 'Object Repository/Registration/Forms/Reason_Visit' is clicked on
+
+2020-05-11 11:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Reason_Visit' is clicked on
+
+2020-05-11 11:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Reason_Visit"), "New KP Client"): Text 'New KP Client' is set on object 'Object Repository/Registration/Forms/Reason_Visit'
+
+2020-05-11 11:34:14 - [MESSAGE][PASSED] - Text 'New KP Client' is set on object 'Object Repository/Registration/Forms/Reason_Visit'
+
+2020-05-11 11:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Temp"), "34"): Text '34' is set on object 'Object Repository/Registration/Forms/Temp'
+
+2020-05-11 11:34:14 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/Registration/Forms/Temp'
+
+2020-05-11 11:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_Pulse Rate_w12"), "120"): Text '120' is set on object 'Object Repository/Page_KenyaEMR/input_Pulse Rate_w12'
+
+2020-05-11 11:34:15 - [MESSAGE][PASSED] - Text '120' is set on object 'Object Repository/Page_KenyaEMR/input_Pulse Rate_w12'
+
+2020-05-11 11:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_mmHg_w14"), "160"): Text '160' is set on object 'Object Repository/Page_KenyaEMR/input_mmHg_w14'
+
+2020-05-11 11:34:15 - [MESSAGE][PASSED] - Text '160' is set on object 'Object Repository/Page_KenyaEMR/input_mmHg_w14'
+
+2020-05-11 11:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_mmHg_w16"), "150"): Text '150' is set on object 'Object Repository/Page_KenyaEMR/input_mmHg_w16'
+
+2020-05-11 11:34:16 - [MESSAGE][PASSED] - Text '150' is set on object 'Object Repository/Page_KenyaEMR/input_mmHg_w16'
+
+2020-05-11 11:34:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_Respiratory Rate_w18"), "45"): Text '45' is set on object 'Object Repository/Page_KenyaEMR/input_Respiratory Rate_w18'
+
+2020-05-11 11:34:16 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Page_KenyaEMR/input_Respiratory Rate_w18'
+
+2020-05-11 11:34:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_Oxygen Saturation_w20"), "42"): Text '42' is set on object 'Object Repository/Page_KenyaEMR/input_Oxygen Saturation_w20'
+
+2020-05-11 11:34:17 - [MESSAGE][PASSED] - Text '42' is set on object 'Object Repository/Page_KenyaEMR/input_Oxygen Saturation_w20'
+
+2020-05-11 11:34:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_kg_w22"), "73"): Text '73' is set on object 'Object Repository/Page_KenyaEMR/input_kg_w22'
+
+2020-05-11 11:34:18 - [MESSAGE][PASSED] - Text '73' is set on object 'Object Repository/Page_KenyaEMR/input_kg_w22'
+
+2020-05-11 11:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KenyaEMR/input_cm_w24"), "166"): Text '166' is set on object 'Object Repository/Page_KenyaEMR/input_cm_w24'
+
+2020-05-11 11:34:18 - [MESSAGE][PASSED] - Text '166' is set on object 'Object Repository/Page_KenyaEMR/input_cm_w24'
+
+2020-05-11 11:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Muac"), "34567"): Text '34567' is set on object 'Object Repository/Registration/Forms/Muac'
+
+2020-05-11 11:34:19 - [MESSAGE][PASSED] - Text '34567' is set on object 'Object Repository/Registration/Forms/Muac'
+
+2020-05-11 11:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/LMP_textbox")): Object: 'Object Repository/Registration/Forms/LMP_textbox' is clicked on
+
+2020-05-11 11:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/LMP_textbox' is clicked on
+
+2020-05-11 11:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/LMP_Date"), "5-03-2020", STOP_ON_FAILURE): Text '5-03-2020' is set on object 'Object Repository/Registration/Forms/LMP_Date'
+
+2020-05-11 11:34:20 - [MESSAGE][PASSED] - Text '5-03-2020' is set on object 'Object Repository/Registration/Forms/LMP_Date'
+
+2020-05-11 11:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/triage_submit")): Object: 'Object Repository/Registration/Forms/triage_submit' is clicked on
+
+2020-05-11 11:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/triage_submit' is clicked on
+
+2020-05-11 11:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_form")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_form' is clicked on
+
+2020-05-11 11:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_form' is clicked on
+
+2020-05-11 11:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/input_Key Population Type_w8")): Object: 'Object Repository/Page_KenyaEMR/input_Key Population Type_w8' is clicked on
+
+2020-05-11 11:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Key Population Type_w8' is clicked on
+
+2020-05-11 11:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/input_Do you have a regular(Non-Paying) sex_09d265")): Object: 'Object Repository/Page_KenyaEMR/input_Do you have a regular(Non-Paying) sex_09d265' is clicked on
+
+2020-05-11 11:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Do you have a regular(Non-Paying) sex_09d265' is clicked on
+
+2020-05-11 11:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_01")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_01' is clicked on
+
+2020-05-11 11:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_01' is clicked on
+
+2020-05-11 11:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_02")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_02' is clicked on
+
+2020-05-11 11:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_02' is clicked on
+
+2020-05-11 11:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_03")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_03' is clicked on
+
+2020-05-11 11:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_03' is clicked on
+
+2020-05-11 11:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_04")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_04' is clicked on
+
+2020-05-11 11:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_04' is clicked on
+
+2020-05-11 11:34:28 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_09"), "234"): Text '234' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_09'
+
+2020-05-11 11:34:29 - [MESSAGE][PASSED] - Text '234' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_09'
+
+2020-05-11 11:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_05")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_05' is clicked on
+
+2020-05-11 11:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_05' is clicked on
+
+2020-05-11 11:34:29 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_10"), "Migori hc"): Text 'Migori hc' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_10'
+
+2020-05-11 11:34:29 - [MESSAGE][PASSED] - Text 'Migori hc' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_10'
+
+2020-05-11 11:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_06")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_06' is clicked on
+
+2020-05-11 11:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_06' is clicked on
+
+2020-05-11 11:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_07")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_07' is clicked on
+
+2020-05-11 11:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_07' is clicked on
+
+2020-05-11 11:34:30 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_11"), "231"): Text '231' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_11'
+
+2020-05-11 11:34:30 - [MESSAGE][PASSED] - Text '231' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_11'
+
+2020-05-11 11:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_08")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_08' is clicked on
+
+2020-05-11 11:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_08' is clicked on
+
+2020-05-11 11:34:31 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_12"), "341"): Text '341' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_12'
+
+2020-05-11 11:34:31 - [MESSAGE][PASSED] - Text '341' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_12'
+
+2020-05-11 11:34:31 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_13"), "doing ok"): Text 'doing ok' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_13'
+
+2020-05-11 11:34:32 - [MESSAGE][PASSED] - Text 'doing ok' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_13'
+
+2020-05-11 11:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_14"), "Milcah Ochieng"): Text 'Milcah Ochieng' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_14'
+
+2020-05-11 11:34:32 - [MESSAGE][PASSED] - Text 'Milcah Ochieng' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_14'
+
+2020-05-11 11:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/kp_STI_15")): Object: 'Object Repository/Registration/KP_Forms/kp_STI_15' is clicked on
+
+2020-05-11 11:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/kp_STI_15' is clicked on
+
+2020-05-11 11:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/KP_Forms/kp_STI_15"), "20-May-2020"): Text '20-May-2020' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_15'
+
+2020-05-11 11:34:33 - [MESSAGE][PASSED] - Text '20-May-2020' is set on object 'Object Repository/Registration/KP_Forms/kp_STI_15'
+
+2020-05-11 11:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/span_Next")): Object: 'Object Repository/Page_KenyaEMR/span_Next' is clicked on
+
+2020-05-11 11:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/span_Next' is clicked on
+
+2020-05-11 11:34:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/input_On average how many times do you inje_da1a6c")): Object: 'Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c' is clicked on
+
+2020-05-11 11:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c' is clicked on
+
+2020-05-11 11:34:34 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/PHQ9_button_form")): Object: 'Object Repository/Registration/KP_Forms/PHQ9_button_form' is clicked on
+
+2020-05-11 11:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/PHQ9_button_form' is clicked on
+
+2020-05-11 11:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Little interest or pleasure in doing _aeac6c")): Object: 'Object Repository/Page_KenyaEMR/input_Little interest or pleasure in doing _aeac6c' is clicked on
+
+2020-05-11 11:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Little interest or pleasure in doing _aeac6c' is clicked on
+
+2020-05-11 11:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Feeling down depressed or hopeless_qu_2191f0")): Object: 'Object Repository/Page_KenyaEMR/input_Feeling down depressed or hopeless_qu_2191f0' is clicked on
+
+2020-05-11 11:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Feeling down depressed or hopeless_qu_2191f0' is clicked on
+
+2020-05-11 11:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Trouble falling or staying asleep or _7ed4ee")): Object: 'Object Repository/Page_KenyaEMR/input_Trouble falling or staying asleep or _7ed4ee' is clicked on
+
+2020-05-11 11:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Trouble falling or staying asleep or _7ed4ee' is clicked on
+
+2020-05-11 11:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Feeling tired or having little energy_041ec1")): Object: 'Object Repository/Page_KenyaEMR/input_Feeling tired or having little energy_041ec1' is clicked on
+
+2020-05-11 11:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Feeling tired or having little energy_041ec1' is clicked on
+
+2020-05-11 11:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-5")): Object: 'Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-5' is clicked on
+
+2020-05-11 11:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-5' is clicked on
+
+2020-05-11 11:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-7")): Object: 'Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-7' is clicked on
+
+2020-05-11 11:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-7' is clicked on
+
+2020-05-11 11:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-8")): Object: 'Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-8' is clicked on
+
+2020-05-11 11:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Poor appetite or overeating_question-8' is clicked on
+
+2020-05-11 11:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Thoughts that you would be better off_c465de")): Object: 'Object Repository/Page_KenyaEMR/input_Thoughts that you would be better off_c465de' is clicked on
+
+2020-05-11 11:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Thoughts that you would be better off_c465de' is clicked on
+
+2020-05-11 11:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c")): Object: 'Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c' is clicked on
+
+2020-05-11 11:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_On average how many times do you inje_da1a6c' is clicked on
+
+2020-05-11 11:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Registration/KP_Forms/HCW_overdose_click")): Object: 'Object Repository/Registration/KP_Forms/HCW_overdose_click' is clicked on
+
+2020-05-11 11:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/KP_Forms/HCW_overdose_click' is clicked on
+
+2020-05-11 11:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3")): Object: 'Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3' is clicked on
+
+2020-05-11 11:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3' is clicked on
+
+2020-05-11 11:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3"), "Migori"): Text 'Migori' is set on object 'Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3'
+
+2020-05-11 11:34:50 - [MESSAGE][PASSED] - Text 'Migori' is set on object 'Object Repository/Page_KenyaEMR/input_Peer EducatorORW Overdose Encounter R_680ca3'
+
+2020-05-11 11:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Date_w10-display")): Object: 'Object Repository/Page_KenyaEMR/input_Date_w10-display' is clicked on
+
+2020-05-11 11:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Date_w10-display' is clicked on
+
+2020-05-11 11:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KenyaEMR/span_Prev")): Object: 'Object Repository/Page_KenyaEMR/span_Prev' is clicked on
+
+2020-05-11 11:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/span_Prev' is clicked on
+
+2020-05-11 11:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/a_4")): Object: 'Object Repository/Page_KenyaEMR/a_4' is clicked on
+
+2020-05-11 11:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/a_4' is clicked on
+
+2020-05-11 11:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input__w12")): Object: 'Object Repository/Page_KenyaEMR/input__w12' is clicked on
+
+2020-05-11 11:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input__w12' is clicked on
+
+2020-05-11 11:34:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input__w14"), "Migori"): Text 'Migori' is set on object 'Object Repository/Page_KenyaEMR/input__w14'
+
+2020-05-11 11:34:52 - [MESSAGE][PASSED] - Text 'Migori' is set on object 'Object Repository/Page_KenyaEMR/input__w14'
+
+2020-05-11 11:34:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KenyaEMR/select_Bar with lodgingBar without lodgingB_60284d"), "165015", true): All options with value '165015' are selected in object 'Object Repository/Page_KenyaEMR/select_Bar with lodgingBar without lodgingB_60284d'  using regular expression
+
+2020-05-11 11:34:53 - [MESSAGE][PASSED] - All options with value '165015' are selected in object 'Object Repository/Page_KenyaEMR/select_Bar with lodgingBar without lodgingB_60284d'  using regular expression
+
+2020-05-11 11:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Ever experienced sexual violence_w18")): Object: 'Object Repository/Page_KenyaEMR/input_Ever experienced sexual violence_w18' is clicked on
+
+2020-05-11 11:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Ever experienced sexual violence_w18' is clicked on
+
+2020-05-11 11:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KenyaEMR/input_Alcohol_w24")): Object: 'Object Repository/Page_KenyaEMR/input_Alcohol_w24' is clicked on
+
+2020-05-11 11:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KenyaEMR/input_Alcohol_w24' is clicked on
+
+2020-05-11 11:34:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_KenyaEMR/select_RecoveredDiedReferred"), "1272", true): All options with value '1272' are selected in object 'Object Repository/Page_KenyaEMR/select_RecoveredDiedReferred'  using regular expression
+
+2020-05-11 11:34:55 - [MESSAGE][PASSED] - All options with value '1272' are selected in object 'Object Repository/Page_KenyaEMR/select_RecoveredDiedReferred'  using regular expression
+
+2020-05-11 11:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KenyaEMR/input_Others (Specify)_w38"), "Mercy Mione"): Text 'Mercy Mione' is set on object 'Object Repository/Page_KenyaEMR/input_Others (Specify)_w38'
+
+2020-05-11 11:34:55 - [MESSAGE][PASSED] - Text 'Mercy Mione' is set on object 'Object Repository/Page_KenyaEMR/input_Others (Specify)_w38'
+
+2020-05-11 11:34:55 - [TEST_STEP][FAILED] - click(findTestObject("Page_KenyaEMR/a_18")): Unable to click on object 'Object Repository/Page_KenyaEMR/a_18' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1584494571349.run(Script1584494571349.groovy:359)
+	... 13 more
+)
+
+2020-05-11 11:34:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KenyaEMR/a_18' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1584494571349.run(Script1584494571349.groovy:359)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\Documents\\khmis-test-suites-master\\khmis-test-suites-master\\Reports\\20200511_113154\\KPNewClient\\20200511_113154\\1589186095947.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-11 11:31:58 - [TEST_CASE][FAILED] - Test Cases/New_KP_Client: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-11 11:31:57 - [TEST_SUITE][FAILED] - KPNewClient: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-11 11:31:57 - [TEST_SUITE][FAILED] - KPNewClient: Test Cases/New_KP_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KenyaEMR/a_18'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at New_KP_Client.run(New_KP_Client:359)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589185914549.run(TempTestSuite1589185914549.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '10.230.1.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b185e48318f6f137bb6268378273eb06
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
