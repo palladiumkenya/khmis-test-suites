@@ -173,7 +173,7 @@ WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Registration/KP_Forms/kp_enrollment_type'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuibp1234567890asdfghjkl568')
+WebUI.setText(findTestObject('Object Repository/Page_KenyaEMR/input_Unique Identifier code_w9'), 'qwertyuibp1234567890asdfghjkl168')
 
 WebUI.setText(findTestObject('Registration/KP_Forms/alias-name'), ' mary')
 
