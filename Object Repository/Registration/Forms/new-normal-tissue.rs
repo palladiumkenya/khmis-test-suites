@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>hts_kit_expiry_date_2</name>
+   <name>new-normal-tissue</name>
    <tag></tag>
-   <elementGuidId>07d9445c-9e05-4611-96e2-8751aee2191d</elementGuidId>
+   <elementGuidId>ba32d302-524c-4187-be60-4dc4d9a2ad56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;w72-display&quot;]</value>
+         <value>//*[@id=&quot;w368&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;w72-display&quot;]</value>
+      <value>//*[@id=&quot;w368&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

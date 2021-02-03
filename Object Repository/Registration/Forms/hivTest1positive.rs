@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>hts_kit_expiry_date_2</name>
+   <name>hivTest1positive</name>
    <tag></tag>
-   <elementGuidId>07d9445c-9e05-4611-96e2-8751aee2191d</elementGuidId>
+   <elementGuidId>bb054bf4-f946-498b-a958-7839250544e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;w72-display&quot;]</value>
+         <value>//*[@id=&quot;w64&quot;]/option[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;w72-display&quot;]</value>
+      <value>//*[@id=&quot;w64&quot;]/option[2]</value>
    </webElementProperties>
 </WebElementEntity>

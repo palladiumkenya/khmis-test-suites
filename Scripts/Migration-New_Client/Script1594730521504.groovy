@@ -14,14 +14,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('')
 
 'Maximize current window'
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://data.kenyahmis.org:9100/openmrs/login.htm')
+WebUI.navigateToUrl('https://data.kenyahmis.org:8500/openmrs/login.htm')
 
 WebUI.setText(findTestObject('Buttons/userName'), 'Admin')
 
@@ -45,21 +44,21 @@ WebUI.waitForElementClickable(findTestObject('Buttons/clinicNo'), 0)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Buttons/clinicNo'), RandomStringUtils.randomNumeric(8))
+WebUI.setText(findTestObject('Buttons/clinicNo'), '16681334')
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Buttons/idNo'), RandomStringUtils.randomNumeric(8))
+WebUI.setText(findTestObject('Buttons/idNo'), '16181231')
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Buttons/surName'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Buttons/surName'), 'Josiah')
+WebUI.setText(findTestObject('Buttons/surName'), 'Jode')
 
 WebUI.click(findTestObject('Buttons/firstName'))
 
-WebUI.setText(findTestObject('Buttons/firstName'), 'Josiah')
+WebUI.setText(findTestObject('Buttons/firstName'), 'Karl')
 
 WebUI.click(findTestObject('Buttons/gender/femal'))
 
@@ -67,7 +66,7 @@ WebUI.click(findTestObject('Buttons/idNo'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('date/birthDate'))
 
-WebUI.setText(findTestObject('date/birthDate'), '20-Feb-1999')
+WebUI.setText(findTestObject('date/birthDate'), '20-Feb-1990')
 
 WebUI.click(findTestObject('date/birthDateDone'))
 
@@ -125,9 +124,11 @@ WebUI.click(findTestObject('Registration/Forms/County_Name'))
 
 WebUI.click(findTestObject('Registration/Forms/Sub_county'))
 
-WebUI.click(findTestObject('Registration/Forms/sirisia_subcounty'))
+WebUI.setText(findTestObject('Registration/Forms/Sub_county'), 'Nairobi')
 
-WebUI.click(findTestObject('Registration/Forms/namwela_ward'))
+WebUI.click(findTestObject('Registration/Forms/ward'))
+
+WebUI.setText(findTestObject('Registration/Forms/ward'), 'Majengo')
 
 WebUI.click(findTestObject('Registration/Forms/Location'))
 
@@ -151,7 +152,7 @@ WebUI.setText(findTestObject('Registration/Forms/Nearest_HC'), 'Pumwani hospital
 
 WebUI.click(findTestObject('Registration/Forms/Next_Kin'))
 
-WebUI.setText(findTestObject('Registration/Forms/Next_Kin'), 'Jane Doe')
+WebUI.setText(findTestObject('Registration/Forms/Next_Kin'), 'Jude Rose')
 
 WebUI.click(findTestObject('Registration/Forms/Rlnship_kin'))
 
@@ -201,7 +202,7 @@ WebUI.setText(findTestObject('Registration/Forms/Muac'), '34567')
 
 WebUI.click(findTestObject('Registration/Forms/LMP_textbox'))
 
-WebUI.setText(findTestObject('Registration/Forms/LMP_Date'), '6-12-2020', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/LMP_Date'), '6-02-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Registration/Forms/triage_submit'))
 
@@ -209,91 +210,7 @@ WebUI.click(findTestObject('Registration/Forms/HTS_Initial_Button'))
 
 WebUI.click(findTestObject('Registration/Forms/HTS_Date_field'))
 
-WebUI.click(findTestObject('Registration/Forms/HTS_Date'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Registration/Forms/hts_field'))
-
-WebUI.click(findTestObject('Registration/Forms/np_populationtype'))
-
-WebUI.click(findTestObject('Registration/Forms/department_opd'))
-
-WebUI.click(findTestObject('Registration/Forms/historytest_no'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Registration/Forms/enterform_elgibilityscreen'))
-
-WebUI.click(findTestObject('Registration/Forms/HTS_Initial_Button'))
-
-WebUI.click(findTestObject('Registration/Forms/HTS_Date_field'))
-
-WebUI.click(findTestObject('Registration/Forms/HTS_Date'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Registration/Forms/hts_field'))
-
-WebUI.click(findTestObject('Registration/Forms/population_type'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Registration/Forms/fisherfolks'))
-
-WebUI.click(findTestObject('Registration/Forms/Disability_field'))
-
-WebUI.click(findTestObject('Registration/Forms/disabilty_type'))
-
-WebUI.click(findTestObject('Registration/Forms/everTested_no'))
-
-WebUI.click(findTestObject('Registration/Forms/selfTestin12months'))
-
-WebUI.click(findTestObject('Registration/Forms/vctteststrategy'))
-
-WebUI.click(findTestObject('Registration/Forms/consentedYes'))
-
-WebUI.click(findTestObject('Registration/Forms/testedasIndividual'))
-
-WebUI.click(findTestObject('Registration/Forms/kitnameFirstresponse'))
-
-WebUI.setText(findTestObject('Registration/Forms/kitlotNumber'), '6789')
-
-WebUI.click(findTestObject('Registration/Forms/hts_kit_expiry_date'))
-
-WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date'), '29-12-2021')
-
-WebUI.click(findTestObject('Registration/Forms/emptyField'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Registration/Forms/hivTest1positive'))
-
-WebUI.click(findTestObject('Registration/Forms/kitDetermine'))
-
-WebUI.setText(findTestObject('Registration/Forms/hts_lotNum_2'), '4567')
-
-WebUI.click(findTestObject('Registration/Forms/hts_kit_expiry_date_2'))
-
-WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date_2'), '29-12-2020')
-
-WebUI.click(findTestObject('Registration/Forms/hts_results_2'))
-
-WebUI.click(findTestObject('Registration/Forms/hts_remarks'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Registration/Forms/hts_tb_screening'))
-
-WebUI.setText(findTestObject('Registration/Forms/hts_remarks'), 'good')
-
-WebUI.click(findTestObject('Registration/Forms/hts_submit_form'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Registration/Forms/hts_Retest_button'))
-
-WebUI.click(findTestObject('Registration/Forms/HTS_Date_field'))
-
-WebUI.click(findTestObject('Registration/Forms/HTS_Date'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/HTS_Date'), '14-Jul-2020')
 
 WebUI.delay(2)
 
@@ -329,7 +246,73 @@ WebUI.setText(findTestObject('Registration/Forms/hts_kit_lotNum'), '6789')
 
 WebUI.click(findTestObject('Registration/Forms/hts_kit_expiry_date'))
 
-WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date'), '29-12-2021')
+WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date'), '29-12-2020')
+
+WebUI.click(findTestObject('Registration/Forms/hts_remarks'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_result_1'), '703', true)
+
+WebUI.setText(findTestObject('Registration/Forms/hts_lotNum_2'), '4567')
+
+WebUI.click(findTestObject('Registration/Forms/hts_kit_expiry_date_2'))
+
+WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date_2'), '29-12-2020')
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_kit_name_2'), '164961', true)
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_results_2'), '703', true)
+
+WebUI.click(findTestObject('Registration/Forms/hts_tb_screening'))
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts-result_given'), '1065', true)
+
+WebUI.setText(findTestObject('Registration/Forms/hts_remarks'), 'good')
+
+WebUI.click(findTestObject('Registration/Forms/hts_submit_form'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Registration/Forms/hts_Retest_button'))
+
+WebUI.click(findTestObject('Registration/Forms/HTS_Date_field'))
+
+WebUI.setText(findTestObject('Registration/Forms/HTS_Date'), '14-Jul-2020')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Registration/Forms/hts_field'))
+
+WebUI.click(findTestObject('Registration/Forms/population_type'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Registration/Forms/fisherfolks'))
+
+WebUI.click(findTestObject('Registration/Forms/Disability_field'))
+
+WebUI.click(findTestObject('Registration/Forms/disabilty_type'))
+
+WebUI.click(findTestObject('Registration/Forms/hts_test_quiz'))
+
+WebUI.setText(findTestObject('Registration/Forms/hts_test_duration'), '17')
+
+WebUI.click(findTestObject('Registration/Forms/hts_self-test'))
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_strategy'), '164163', true)
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_entry'), '162050', true)
+
+WebUI.click(findTestObject('Registration/Forms/hts_consent'))
+
+WebUI.click(findTestObject('Registration/Forms/hts_tested_as'))
+
+WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_kit_name'), '164960', true)
+
+WebUI.setText(findTestObject('Registration/Forms/hts_kit_lotNum'), '6789')
+
+WebUI.click(findTestObject('Registration/Forms/hts_kit_expiry_date'))
+
+WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date'), '29-12-2020')
 
 WebUI.click(findTestObject('Registration/Forms/hts_remarks_2'), FailureHandling.STOP_ON_FAILURE)
 
@@ -341,7 +324,7 @@ WebUI.setText(findTestObject('Registration/Forms/hts_lotNum_2'), '4567')
 
 WebUI.click(findTestObject('Registration/Forms/hts_kit_expiry_date_2'))
 
-WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date_2'), '29-12-2021')
+WebUI.setText(findTestObject('Registration/Forms/hts_kit_expiry_date_2'), '29-12-2020')
 
 WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_results_2'), '703', true)
 
@@ -363,7 +346,7 @@ WebUI.click(findTestObject('Registration/Forms/hts_linkage_button'))
 
 WebUI.click(findTestObject('Page_KenyaEMR/input_This facility_default-facility'))
 
-WebUI.setText(findTestObject('Registration/Forms/hts_linkage_CCC_number'), '1315590002')
+WebUI.setText(findTestObject('Registration/Forms/hts_linkage_CCC_number'), '1315599263')
 
 WebUI.setText(findTestObject('Registration/Forms/hts_linkage_hcw_name'), 'Mary Kwamboka')
 
@@ -373,7 +356,7 @@ WebUI.selectOptionByValue(findTestObject('Registration/Forms/hts_linkage_hcw_cad
 
 WebUI.click(findTestObject('Registration/Forms/hts_enrollment_date_field'))
 
-WebUI.setText(findTestObject('Registration/Forms/hts_linkage_date_enrolled_field'), '16-Jul-2020', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/hts_linkage_date_enrolled_field'), '14-Jul-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -381,7 +364,7 @@ WebUI.click(findTestObject('Registration/Forms/free_field_click'))
 
 WebUI.click(findTestObject('Registration/Forms/hts_linkage_art_field_date'))
 
-WebUI.setText(findTestObject('Registration/Forms/hts_linkage_art_date'), '16-Jul-2020', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/hts_linkage_art_date'), '14-Jul-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Registration/Forms/free_field_click'))
 
@@ -393,7 +376,7 @@ WebUI.click(findTestObject('Registration/Forms/hts_linkage _submit-button'))
 
 WebUI.click(findTestObject('Page_KenyaEMR/button_Enroll'))
 
-WebUI.setText(findTestObject('Registration/Forms/hiv_enrollment_date'), '16-Jul-2020', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/hiv_enrollment_date'), '14-Jul-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Registration/Forms/hiv_free_click'))
 
@@ -401,7 +384,7 @@ WebUI.click(findTestObject('Registration/Forms/hiv_patient-type'))
 
 WebUI.click(findTestObject('Registration/Forms/hiv-entry-point'))
 
-WebUI.setText(findTestObject('Registration/Forms/hiv_enrollmrnt_number'), '1315500016')
+WebUI.setText(findTestObject('Registration/Forms/hiv_enrollmrnt_number'), '1315588547')
 
 WebUI.click(findTestObject('Registration/Forms/hiv_enrollment_who_stage_field'))
 
@@ -435,7 +418,7 @@ WebUI.click(findTestObject('Registration/Forms/hiv_new_ regimen_start_button'))
 
 WebUI.click(findTestObject('Registration/Forms/hiv_regimen_start_date_field'))
 
-WebUI.setText(findTestObject('Registration/Forms/hiv_arvs_start_date'), '16-Jul-2020', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/hiv_arvs_start_date'), '14-Jul-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Registration/Forms/hive_arvs_start_date_done_button'))
 
@@ -479,7 +462,7 @@ WebUI.setText(findTestObject('Page_KenyaEMR/input_Session Number_w8'), '1')
 
 WebUI.click(findTestObject('Registration/Forms/Adherance_date_first_session'))
 
-WebUI.setText(findTestObject('Registration/Forms/Adherance_date_first_session'), '16-Jul-2020', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Registration/Forms/Adherance_date_first_session'), '14-Jul-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Registration/Forms/Adherance_pill_count'))
 
@@ -576,138 +559,6 @@ WebUI.click(findTestObject('Registration/Forms/Adherance_Followup_Date'))
 WebUI.setText(findTestObject('Registration/Forms/Adherance_Followup_Date'), '23-Aug-2020', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Registration/Forms/Adherance_Form_Submit'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/b_HIV Green Card'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_No_w10'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_General Population_w34'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_General Population_w34'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_People who inject drugs_w38'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/a_Next'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_Yes_w8'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/a_Next'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_People who inject drugs_w38'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_General Population_w34'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_General Population_w34'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_General Population_w34'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_People who inject drugs_w38'))
-
-WebUI.click(findTestObject('Registration/Forms/GreenCard_Child_WHO'))
-
-WebUI.click(findTestObject('Registration/Forms/green-card-next'))
-
-WebUI.click(findTestObject('Page_KenyaEMR/input_Patient having complaint(s) today_w44'))
-
-WebUI.click(findTestObject('Registration/Forms/green-card-complains'))
-
-WebUI.click(findTestObject('Registration/Forms/pain-duration'))
-
-WebUI.setText(findTestObject('Registration/Forms/pain-duration'), '1')
-
-WebUI.click(findTestObject('Registration/Forms/complain-date'))
-
-WebUI.setText(findTestObject('Registration/Forms/complain-date'), '16-Jul-2020')
-
-WebUI.click(findTestObject('Registration/Forms/pain-duration'))
-
-WebUI.click(findTestObject('Registration/Forms/complaints_notes'))
-
-WebUI.setText(findTestObject('Registration/Forms/complaints_notes'), 'given  drugs')
-
-WebUI.click(findTestObject('Registration/Forms/No-anti-tb'))
-
-WebUI.click(findTestObject('Registration/Forms/NoIPT'))
-
-WebUI.click(findTestObject('Registration/Forms/everIPT'))
-
-WebUI.click(findTestObject('Registration/Forms/cough-at-duration'))
-
-WebUI.click(findTestObject('Registration/Forms/screening-fever'))
-
-WebUI.click(findTestObject('Registration/Forms/screening-lethergy'))
-
-WebUI.click(findTestObject('Registration/Forms/poorweightgain'))
-
-WebUI.click(findTestObject('Registration/Forms/contactwithTB'))
-
-WebUI.click(findTestObject('Registration/Forms/TBSigns'))
-
-WebUI.click(findTestObject('Registration/Forms/yellow-urine'))
-
-WebUI.click(findTestObject('Registration/Forms/numbness'))
-
-WebUI.click(findTestObject('Registration/Forms/yellowness-eyes'))
-
-WebUI.click(findTestObject('Registration/Forms/tenderness'))
-
-WebUI.click(findTestObject('Registration/Forms/allergies'))
-
-WebUI.click(findTestObject('Registration/Forms/carmobidities'))
-
-WebUI.click(findTestObject('Registration/Forms/drugReaction'))
-
-WebUI.click(findTestObject('Registration/Forms/BCG'))
-
-WebUI.click(findTestObject('Registration/Forms/Menses'))
-
-WebUI.click(findTestObject('Registration/Forms/yellowCard-next'))
-
-WebUI.click(findTestObject('Registration/Forms/general-examination'))
-
-WebUI.click(findTestObject('Registration/Forms/examination-normal'))
-
-WebUI.click(findTestObject('Registration/Forms/diagnosis'))
-
-WebUI.setText(findTestObject('Registration/Forms/diagnosis'), 'Normal Tissue')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Registration/Forms/treatment-plan'))
-
-WebUI.setText(findTestObject('Registration/Forms/treatment-plan'), 'Normal Treatment')
-
-WebUI.click(findTestObject('Registration/Forms/examination-next'))
-
-WebUI.click(findTestObject('Registration/Forms/prophylaxis'))
-
-WebUI.click(findTestObject('Registration/Forms/condoms'))
-
-WebUI.click(findTestObject('Registration/Forms/substance-abuse'))
-
-WebUI.click(findTestObject('Registration/Forms/hiv-disclosure'))
-
-WebUI.click(findTestObject('Registration/Forms/partner-testing'))
-
-WebUI.click(findTestObject('Registration/Forms/CaCx'))
-
-WebUI.click(findTestObject('Registration/Forms/STI-screening'))
-
-WebUI.click(findTestObject('Registration/Forms/patient-stable'))
-
-WebUI.click(findTestObject('Registration/Forms/return-day'))
-
-WebUI.setText(findTestObject('Registration/Forms/return-day'), '29-Aug-2020')
-
-WebUI.click(findTestObject('Registration/Forms/differentiated'))
-
-WebUI.click(findTestObject('Registration/Forms/standard-care'))
-
-WebUI.click(findTestObject('Registration/Forms/reasontovisit'))
-
-WebUI.click(findTestObject('Registration/Forms/followup-reason'))
-
-WebUI.click(findTestObject('Registration/Forms/submit-greencard'))
 
 WebUI.click(findTestObject('Object Repository/Lab_Drug_Orders/Page_KenyaEMR/a_Drug Orders'))
 

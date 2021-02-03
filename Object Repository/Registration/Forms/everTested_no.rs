@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>hts_kit_expiry_date_2</name>
+   <name>everTested_no</name>
    <tag></tag>
-   <elementGuidId>07d9445c-9e05-4611-96e2-8751aee2191d</elementGuidId>
+   <elementGuidId>6aef8b4a-e538-4907-ac45-4f58c6e9b713</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;w72-display&quot;]</value>
+         <value>//*[@id=&quot;w42_1&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;w72-display&quot;]</value>
+      <value>//*[@id=&quot;w42_1&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

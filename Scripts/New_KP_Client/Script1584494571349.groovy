@@ -102,7 +102,7 @@ WebUI.click(findTestObject('Registration/Forms/Email'))
 
 WebUI.setText(findTestObject('Registration/Forms/Email'), 'lucy@gmail.com')
 
-WebUI.click(findTestObject('Registration/Forms/County'))
+WebUI.click(findTestObject('Registration/Forms/County_Bungoma'))
 
 WebUI.click(findTestObject('Registration/Forms/County_Name'))
 

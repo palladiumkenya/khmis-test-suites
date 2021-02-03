@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>County</name>
+   <name>namwela_ward</name>
    <tag></tag>
-   <elementGuidId>4482afcf-4c78-4f8d-999d-fd6c350cdea1</elementGuidId>
+   <elementGuidId>b82ba5ab-bae2-4874-9053-05c0295f421e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div/form/div[1]/fieldset[3]/table[3]/tbody/tr[2]/td[1]/select
-</value>
+         <value>//*[@id=&quot;ward&quot;]/option[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div/form/div[1]/fieldset[3]/table[3]/tbody/tr[2]/td[1]/select
-</value>
+      <value>//*[@id=&quot;ward&quot;]/option[2]</value>
    </webElementProperties>
 </WebElementEntity>
